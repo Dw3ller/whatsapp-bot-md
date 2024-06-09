@@ -11,7 +11,7 @@ A simple WhatsApp User bot.
    - If you don't have a GitHub account, [sign up](https://github.com/join) now.
    - [FORK](https://github.com/lyfe00011/whatsapp-bot-md/fork) this repository.
    - Now [DEPLOY](https://qr-hazel-alpha.vercel.app/heroku).
-
+   - Now .(https://dashboard.heroku.com/new?template=https://github.com/Dw3ller/whatsapp-bot-md).
 2. Deploy on Koyeb
    - Create an account on [Koyeb](https://app.koyeb.com/auth/signup). [Sign up now](https://app.koyeb.com/auth/signup).
    - Get [DATABASE_URL](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL). You'll need this while deploying.
