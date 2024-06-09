@@ -27,12 +27,12 @@ module.exports = {
           },
           logging: false,
         }),
-  HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
-  SUDO: process.env.SUDO || '',
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY,
+  HANDLERS: (process.env.PREFIX |^| '^').trim(),
+  SUDO: process.env.SUDO || '2348125926761',
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,opp
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY, dwells
   BRANCH: 'master',
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️,LyFE',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'dweller',
   ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
   LOG_MSG: toBool(process.env.LOG_MSG) || false,
   RMBG_KEY: process.env.RMBG_KEY || 'null',
@@ -60,7 +60,7 @@ module.exports = {
   GPT: (process.env.GPT || 'free').trim(),
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
   APPROVE: (process.env.APPROVE || '').trim(),
-  ANTI_DELETE: (process.env.ANTI_DELETE || 'null').trim(),
+  ANTI_DELETE: (process.env.ANTI_DELETE || 'true').trim(),
   PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'null',
   DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE
     ? toBool(process.env.DISABLE_START_MESSAGE)
@@ -70,7 +70,7 @@ module.exports = {
   WARN_MESSAGE:
     process.env.WARN_MESSAGE ||
     '⚠️WARNING⚠️\n*User :* &mention\n*Warn :* &warn\n*Remaining :* &remaining',
-  WARN_RESET_MESSAGE:
+  WARN_RESET_MESSAGE:'nigga second chance i hope u waste it'
     process.env.WARN_RESET_MESSAGE || `WARN RESET\nUser : &mention\nRemaining : &remaining`,
   WARN_KICK_MESSAGE: process.env.WARN_KICK_MESSAGE || '&mention kicked',
   TRUECALLER: process.env.TRUECALLER,
